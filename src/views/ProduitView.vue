@@ -2,7 +2,7 @@
   <main>
     <div>
       <table>
-        <caption>Liste des produits</caption>
+        <caption>Liste des produits {{ data.page.number + 1 }} / {{ data.page.totalPages }} </caption>
         <tr>
           <th>Nom</th>
           <th>Prix</th>
